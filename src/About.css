@@ -1,0 +1,60 @@
+#About>h1{
+    text-align: center;
+}
+#skill,#education{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#skill>div,#education>div{
+    width: 50%;
+    margin: 2%;
+    background-color: #3cfdd3af;
+    border:2px solid rgb(224, 255, 47);
+    border-radius: 10px;
+    padding: 3%;
+}
+h2{
+    padding-left: 4%;
+}
+ul{
+    padding-left: 15%;
+}
+#ho:hover{
+    background-color:#293a5bbb ;
+    color:white
+}
+#ho{
+    text-align: justify;
+}
+
+@media screen and (max-width:720px){
+    #about{
+        display: flex;
+        justify-content: center;
+
+    }
+    #skill,#education{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    #skill div,#education div{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+
+
+}
+@media screen and (max-width:400px){
+    #skill div,#education div{
+
+        font-size: 0.6rem;
+    }
+}
+
+
