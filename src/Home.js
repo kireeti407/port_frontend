@@ -13,7 +13,6 @@ function App() {
     setTimeout(()=>{
       change(k+ki[i])
       ing(i+1)
-      console.log(i)
     },400)
   },[i,ing,change,k])
   return (
